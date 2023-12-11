@@ -1,0 +1,1 @@
+la video est trop grand pour metre sur github directement ducou je l'ai diviser sur plusieur fichier .rar sinon le lien vers la video original est https://www.youtube.com/watch?v=0ZqMt74hO6U

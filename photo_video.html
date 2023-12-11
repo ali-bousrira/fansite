@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fansite stalker</title>
+    <link rel="icon" type="image/jfif" href="images/logo.jfif">
+    <link rel="stylesheet" href="fansite.css">
+    <script src="pause_play.js"></script>
+    <script src="https://kit.fontawesome.com/eb9b207cce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <video id="video" autoplay loop muted>
+        <source src="videos/trailer.mp4" type="video/mp4">
+    </video>
+    <header>
+        <a href="fansite_index.html">Actualise</a>
+        <a href="realisation.html">Realisation</a>
+        <a href="evenement.html">evenement</a>
+        <a href="photo_video.html">photos et videos</a>
+        <button onclick="toggleMute();" id="btn1" ><i class="fas fa-volume-mute"></i></button>
+        <button onclick="pause_start();" id="btn2" >pause II</button>
+    </header>
+    <main>
+        <!--videos-->
+        <section>
+            <div class="resp-container">
+                <iframe class="resp-iframe" width="1903" height="796" src="https://www.youtube.com/embed/TXELWoSzZ6U" title="Why you shouldn&#39;t ambush a Duty Squad." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="resp-container">
+                <iframe class="resp-iframe1" width="1904" height="796" src="https://www.youtube.com/embed/DUaBRHHU5Ic" title="S.T.A.L.K.E.R. - Shadow of Chernobyl [Trailer]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="resp-iframe2" width="1903" height="796" src="https://www.youtube.com/embed/IJzJU1638oc" title="S.T.A.L.K.E.R.: Clear Sky PC Games Trailer - Gameplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="resp-iframe3" width="1903" height="796" src="https://www.youtube.com/embed/_IiSD6yFLwg" title="S.T.A.L.K.E.R.: Call of Pripyat | Trailer [GOG]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="resp-iframe4" width="300" height="150" src="https://www.youtube.com/embed/0ZqMt74hO6U" title="S.T.A.L.K.E.R  2  Heart of Chornobyl Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+        </section>
+        <!--photos-->
+        <section class="conteiner">
+            <img class="photo" src="images/stalkersoc.jfif" alt="image de stalker Shadow of Chernobyl">
+            <img class="photo" src="images/stalkercs.jfif" alt="image de stalker Clear Sky">
+            <img class="photo" src="images/stalkercop.jfif" alt="image de Call of Pripyat">
+            <img class="photo" src="images/stalker2team.jfif" alt="image du traileur de stalker 2 avec plusieur perssone">
+            <img class="photo" src="images/stalker2shotgun.jfif" alt="image du traileur de stalker 2 avec une perssone tennant un fusil a pomp">
+            <img class="photo" src="images/stalker2heli.jfif" alt="image du traileur de stalker 2 d'un helicopter">
+            <img class="photo" src="images/stalker2cover.jfif" alt="image de couverture de stalker 2">
+            <img class="photo" src="images/irl1.jfif" alt="image réel de recration dune bande de stalker par les fan">
+            <img class="photo" src="images/irl2.jfif" alt="image réel d'une escoide de stalker creer par les fan">
+            <img class="photo" src="images/irl3.jfif" alt="image réel d'une perssone dans un tenue de Duty">
+            <img class="photo" src="images/irl4.jfif" alt="image réel d'une equipe de stalker plus petite">
+        </section>
+    </main>
+    <footer>
+        <a href="fansite_index.html">Actualise</a>
+        <a href="realisation.html">Realisation</a>
+        <a href="evenement.html">evenement</a>
+        <a href="photo_video.html">photos et videos</a>
+        <button onclick="toggleMute();" id="btn1" ><i class="fas fa-volume-mute"></i></button>
+        <button onclick="pause_start();" id="btn2" >pause II</button>
+    </footer>
+</body>
+</html>
